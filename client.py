@@ -1,7 +1,6 @@
 import socket
+from creds import host, port
 
-host = "192.168.1.100"
-port = 9999
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((host, port))
